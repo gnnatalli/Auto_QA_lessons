@@ -1,3 +1,16 @@
-__pycache__/
-*.pyc
+# Виртуальное окружение
 .venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# Allure
+allure-report/
+allure-results/
+
+# IDE
+.idea/
